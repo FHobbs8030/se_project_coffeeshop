@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Coffee Shop Landing Page">
-    <meta name="author" content="Software Engineer">
-    <meta name="keywords" content="HTML, CSS">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Coffee Shop Landing Page" />
+    <meta name="author" content="Software Engineer" />
+    <meta name="keywords" content="HTML, CSS" />
     <title>Coffee Shop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon shortcut " href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon shortcut " href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&family=Roboto&display=swap"
-      rel="stylesheet">
-
-    </head>
+      rel="stylesheet"
+    />
+  </head>
 
   <body>
     <div class="page">
@@ -26,8 +26,8 @@
           <img
             src="./images/logo_coffeeshop_dark.svg"
             alt="coffee shop logo"
-            class="nav__logo">>
-          <img/>
+            class="nav__logo"
+          /><img />
           <ul class="nav__links">
             <li><a href="" class="nav__link">Recipes</a></li>
             <li><a href="" class="nav__link">Book a table</a></li>
@@ -40,10 +40,14 @@
           <span class="header__library">in the Triple Peaks Library</span>
         </h1>
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you  and
+          Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
         </p>
-        <img src="./images/inside_coffee_shop.png" alt="Illustration 'Inside the Coffee shop'" class="header__image">
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the Coffee shop'"
+          class="header__image"
+        />
         <div class="header__footer">
           <div>
             <p class="header__paragraph">Hours:</p>
@@ -51,46 +55,56 @@
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
           <div>
-          <!-- <p class="header__paragraph"> -->
+            
             <p class="header__paragraph-address">
               200 Success Avenue, The Town of Triple Peaks
             </p>
-        </div>
+          </div>
         </div>
       </header>
-      <section class="content">
-  <section class="recipes">
-        <h2 class="recipes__title">Recipes</h2>
-        <p class="recipes__subtitle">
-          Check out some recipes we've collected for your home-brewing
-          convenience:
-        </p>
-        <div class="recipes__video">
-        <div>
-          <iframe
-           src="https://www.youtube.com/embed/j6VlT_jUVPc" allowfullscreen
-            frameborder="0"
-            class="recipes__iframe"
-          ></iframe>
-          <!-- <p class="recipes__videos-caption">Areopress recipe ~5 min</p> -->
-          <p class="recipes__caption">Areopress recipe ~5 min</p>
-        </div>
-        <div>
-          <iframe
-           src="https://www.youtube.com/embed/st571DYYTR8" allowfullscreen
-            frameborder="0"
-            class="recipes__iframe"
-          ></iframe>
-          <!-- <p class="recipes__video-caption">French press recipe ~15 min</p> -->
-          <p class="recipes__caption">French press recipe ~15 min</p>
-        </div>
-        </div>
-</section>
+      <main class="content">
+        <section class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+
+          <ul class="recipes__videos">
+            <li class="recipes__video-item">
+              <iframe
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                frameborder="0"
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                frameborder="0"
+              ></iframe>
+
+              <p class="recipes__video-caption">
+                <span>Areopress recipe</span>
+                <span> ~5 min</span>
+              </p>
+            </li>
+            <li class="recipes__video-item">
+              <iframe
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                allowfullscreen
+                frameborder="0"
+                class="recipes__iframe"
+              ></iframe>
+
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span> ~15 min</span>
+              </p>
+            </li>
+          </ul>
+        </section>
         <!-- <section class="reservations"></section>
         <section class="menu"></section>
         <section class="about"></section> -->
       </main>
       <footer class="footer"></footer>
-</div>
-    </body>
+    </div>
+  </body>
 </html>
