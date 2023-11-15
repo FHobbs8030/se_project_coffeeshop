@@ -111,10 +111,6 @@
   padding: 90px 80px 40px;
 }
 
-/* display: flex;
-  padding: 30px 80px 40px;
-  margin-top: auto; */
-
 .recipes {
   background-color: #0a2750;
   background-image: url("./images/background_recipes.svg");
@@ -141,6 +137,7 @@
   color: #fff;
   max-width: 438px;
 }
+
 .recipes__videos {
   display: flex;
   justify-content: center;
