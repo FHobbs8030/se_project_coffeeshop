@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Coffee Shop Landing Page">
-    <meta name="author" content="Software Engineer">
-    <meta name="keywords" content="HTML, CSS">
-    <title>Coffee Shop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./pages/index.css">
-    <link rel="icon shortcut " href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cofee shop landing page" />
+    <meta name="author" content="Softaware engineer" />
+    <meta name="keywords" content="HTML, CSS" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&family=Roboto&display=swap"
-      rel="stylesheet">
-
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cofee shop</title>
   </head>
 
   <body>
     <div class="page">
-      <class="header">
-        <img class="nav">
+      <header class="header">
+        <nav class="nav">
           <img
             src="./images/logo_coffeeshop_dark.svg"
-            alt="coffee shop logo"
-            class="nav__logo">
-          </img>
+            alt="Coffeshop logo"
+            class="nav__logo"
+          />
           <ul class="nav__links">
-            <li><a href="" class="nav__link">Recipes</a></li>
-            <li><a href="" class="nav__link">Book a table</a></li>
-            <li><a href="" class="nav__link">Menu</a></li>
-            <li><a href="" class="nav__link">Contacts</a></li>
+            <li>
+              <a href="#events" class="nav__link">recipes</a>
+            </li>
+            <li>
+              <a href="#staff" class="nav__link">Book a table</a>
+            </li>
+            <li>
+              <a href="#membership" class="nav__link">menu</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">contacts</a>
+            </li>
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Specialty Coffee</span>
-          <span class="header__library">in the Triple Peaks Library</span>
+          <span class="header__span-accent">Specialty Coffee</span> the Triple
+          Peaks Library
         </h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
@@ -45,21 +52,18 @@
         </p>
         <img
           src="./images/inside_coffee_shop.png"
-          alt="Illustration 'Inside the Coffee shop'"
-          class="header__image">
-      </img>
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
         <div class="header__footer">
           <div>
-            <p class="header__paragraph">Hours:</p>
-            <p class="header__paragraph">Monday-Friday (10:00 - 19:00)</p>
-            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+            <p class="header__paragraph">Hours</p>
+            <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
           </div>
-          <div>
-
-            <p class="header__paragraph-address">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -69,40 +73,43 @@
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-
-          <ul class="recipes__videos">
-            <li class="recipes__video-item">
+          <div class="recipes__videos">
+            <div>
               <iframe
-                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=3v_VI5x7NF2kapmh"
+                title="YouTube video player"
                 frameborder="0"
-                class="recipes__iframe"
-                src="https://www.youtube.com/embed/st571DYYTR8"
-                frameborder="0"
-              ></iframe>
-
-              <p class="recipes__video-caption">
-                <span>Areopress recipe</span>
-                <span> ~5 min</span>
-              </p>
-            </li>
-            <li class="recipes__video-item">
-              <iframe
-                src="https://www.youtube.com/embed/st571DYYTR8"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
-                frameborder="0"
                 class="recipes__iframe"
               ></iframe>
-
-              <p class="recipes__video-caption">
-                <span>French press recipe</span>
-                <span> ~15 min</span>
+              <p class="recipes_video-caption">
+                <span>Aeropress recipe</span>~5 min
               </p>
-            </li>
-          </ul>
+            </div>
+            <div>
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=eVRvw0H9xSmJtMv_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+                        web-share"
+                allowfullscreen
+                class="recipes__iframe"
+              ></iframe>
+              <p class="recipes_video-caption">
+                <span>French press recipe</span> -15 min
+              </p>
+            </div>
+          </div>
         </section>
-        <!-- <section class="reservations"></section>
+        <section class="reservation"></section>
         <section class="menu"></section>
-        <section class="about"></section> -->
+        <section class="about"></section>
       </main>
       <footer class="footer"></footer>
     </div>
