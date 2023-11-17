@@ -49,7 +49,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 20p;
+  line-height: 20px;
 }
 
 .header__title {
@@ -60,7 +60,7 @@
   line-height: 72px;
   font-weight: 500;
   margin: 183px 0 0;
-  letter-spacing: -0.6x;
+  letter-spacing: 0.6x;
 }
 
 .header__description {
