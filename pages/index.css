@@ -121,6 +121,11 @@
   color: #ffffff;
 }
 
+.recipes__iframe {
+  border: none;
+  /* other styles... */
+}
+
 .recipes__subtitle {
   top: 24px;
   bottom: 80px;
