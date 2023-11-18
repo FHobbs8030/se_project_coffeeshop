@@ -83,7 +83,7 @@
   color: #2f80ed;
 }
 
-.sub-header__span-accent {
+.header__span-accent-sub {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -93,7 +93,7 @@
   color: #000;
 }
 
-.sub-header__description {
+.header__description-sub {
   word-wrap: normal;
   font-family: "Noto Serif";
   font-style: normal;
