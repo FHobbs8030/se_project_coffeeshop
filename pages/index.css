@@ -83,28 +83,6 @@
   color: #2f80ed;
 }
 
-.header__span-accent-sub {
-  display: block;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 50px;
-  line-height: 72px;
-  color: #000;
-}
-
-.header__description-sub {
-  word-wrap: normal;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 28px 0 80px;
-  color: #000;
-}
-
 .header__image {
   position: absolute;
   top: 124px;
