@@ -116,12 +116,11 @@
 .recipes {
   padding: 100px 80px 215px;
   max-width: 580px;
-  background-image: url(../images/background_recipes.svg);
+  height: 100vh;
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-color: #0a2750;
 }
 
 .recipes__iframe {
