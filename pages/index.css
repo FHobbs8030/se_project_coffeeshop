@@ -7,6 +7,7 @@
   line-height: 20px;
   background-color: #0a2750;
   background-size: cover;
+
 }
 
 .header {
@@ -45,7 +46,7 @@
 .nav__link {
   color: #000;
   text-decoration: none;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -54,7 +55,7 @@
 
 .header__title {
   max-width: 729px;
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-size: 60px;
   line-height: 72px;
@@ -65,7 +66,7 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
@@ -75,7 +76,7 @@
   z-index: 1;
 }
 
-.header__span-accent {
+/* .header__span-accent {
   display: block;
   font-family: "Noto Serif";
   font-style: italic;
@@ -84,7 +85,17 @@
   line-height: 72px;
   color: #2f80ed;
   z-index: 1;
+} */
+
+.header__title span:nth-child(1) {
+  color: #2f80ed;
 }
+
+.header__title span:nth-child(2) {
+
+}
+
+
 
 .header__image {
   position: absolute;
@@ -126,12 +137,23 @@
 .recipes__iframe {
   border: none;
 }
-
+.recipes__title {
+  margin: 0 0 80px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #ffffff;
+}
 .recipes__subtitle {
+font-family: Inter arial, sans-serif;
   top: 24px;
   bottom: 80px;
   right: 80px;
-  max-width: 438px;
+  max-width: 500px;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 .recipes__videos {
@@ -143,9 +165,10 @@
   height: 273px;
 }
 
-.recipes_video-caption {
+.recipes__video-caption {
   display: flex;
   justify-content:center;
+  color: #ffffff;
 }
 
 .reservation {
@@ -158,7 +181,7 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -189,7 +212,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
 }
 
 
