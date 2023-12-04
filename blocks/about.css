@@ -29,16 +29,20 @@
 
     .about__title {
       font-family: "Inter";
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  max-width: 251px;
-        margin-top: -9px ;
-        z-index: 1;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 44px;
+      line-height: 52px;
+      max-width: 251px;
+      margin-top: -9px ;
+      z-index: 1;
     }
 
     .about__content {
       font-family: "Noto Serif";
+      font-style: normal;
+      font-weight: normal;
+
        font-size: 20px;
        line-height: 30px;
        max-width: 660px;
