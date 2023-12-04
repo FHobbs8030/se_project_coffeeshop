@@ -1,5 +1,5 @@
  .footer__content{
-  height: 270px;
+  height: 203px;
   box-sizing: border-box;
   color: #fff;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
@@ -85,4 +85,5 @@
 .footer__copyright {
   margin:  0;
   margin-left: 80px;
+  margin-bottom: 60px;
 }
