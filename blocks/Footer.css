@@ -1,6 +1,5 @@
 
 .footer {
-  /* height: 203px; */
   padding-top: 60px;
   box-sizing: border-box;
   color: #fff;
@@ -11,8 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 60px;
-  padding-bottom: 60px;
   box-sizing: border-box;
   color: #fff;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
@@ -23,7 +20,6 @@
 .footer__logo {
   width: 105px;
   height: 39px;
-  padding-top: 60px;
   padding-left: 80px;
 }
 
@@ -55,7 +51,6 @@
 }
 
 .footer__list-item {
-  padding-bottom: 20px;
   font-size: 16px;
 }
 
@@ -69,9 +64,7 @@
 }
 
 .footer__social-heading {
-  padding-top: 60px;
   padding-right: 80px;
-  padding-bottom: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -99,6 +92,7 @@
 
 .footer__copyright {
   margin:  0;
+  padding-top: 108px;
   padding-left: 80px;
   padding-bottom: 60px;
 }
