@@ -46,7 +46,8 @@
        line-height: 30px;
        max-width: 660px;
        gap: 20px;
-       margin-left: auto;
+       /* margin-left: auto; */
+       padding-left: 330px;
     }
 
   .about__circle {
