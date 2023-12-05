@@ -1,15 +1,30 @@
- .footer__content{
-  height: 203px;
+
+.footer {
+  /* height: 203px; */
+  padding-top: 60px;
   box-sizing: border-box;
   color: #fff;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
 }
 
+ .footer__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  color: #fff;
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+
+
+}
+
 .footer__logo {
   width: 105px;
   height: 39px;
-  margin-top: 60px;
-  margin-left: 80px;
+  padding-top: 60px;
+  padding-left: 80px;
 }
 
 .footer__columns{
@@ -19,7 +34,7 @@
 }
 
 .footer__social_content_social {
-  margin-left: 80px;
+  padding-left: 80px;
 }
 
 
@@ -40,7 +55,7 @@
 }
 
 .footer__list-item {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-size: 16px;
 }
 
@@ -54,9 +69,9 @@
 }
 
 .footer__social-heading {
-  margin-top: 60px;
-  margin-right: 80px;
-  margin-bottom: 20px;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 20px;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -65,7 +80,7 @@
 }
 
 .footer__social-link {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   color: white;
   text-decoration: none;
   display: flex;
@@ -79,11 +94,11 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .footer__copyright {
   margin:  0;
-  margin-left: 80px;
-  margin-bottom: 60px;
+  padding-left: 80px;
+  padding-bottom: 60px;
 }
