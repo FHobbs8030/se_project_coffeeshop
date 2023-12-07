@@ -12,10 +12,7 @@
   align-items: center;
   box-sizing: border-box;
   color: #fff;
- 
-
-
-}
+ }
 
 .footer__logo {
   width: 105px;
@@ -26,7 +23,6 @@
 .footer__columns{
   display: flex;
   justify-content: space-between;
-
 }
 
 .footer__social_content_social {
