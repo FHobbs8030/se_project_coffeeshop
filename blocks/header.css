@@ -35,12 +35,13 @@
 }
 
 .header__description {
-  font-family: Inter, Arial, sans-serif;
+  font-family: 'Inter';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
   margin: 28px 0 80px;
   z-index: 1;
 }
@@ -51,7 +52,6 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  /* background-image: url(../images/background_header.svg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
