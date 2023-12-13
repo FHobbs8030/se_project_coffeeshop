@@ -11,11 +11,11 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: Inter,"Times New Roman",serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__input {
@@ -46,7 +46,9 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  text-align: center;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
