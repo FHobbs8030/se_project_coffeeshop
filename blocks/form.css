@@ -11,7 +11,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter,"Times New Roman",serif;
+  font-family: 'Inter',"Times New Roman", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -20,7 +20,7 @@
 
 .form__input {
   display: block;
-  padding: 35px;
+  padding: 11px;
   box-sizing: border-box;
   width: 100%;
   height: 60px;
@@ -49,7 +49,7 @@
   width: 20px;
   height: 20px;
   margin-bottom: 0;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

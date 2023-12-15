@@ -13,7 +13,7 @@
 
 .header__title {
   max-width: 729px;
-  font-family: Inter, Arial, sans-serif;
+  font-family: 'Inter',"Times New Roman", serif;
   font-style: normal;
   font-size: 60px;
   line-height: 72px;
@@ -25,7 +25,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: 'Noto Serif',"Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
