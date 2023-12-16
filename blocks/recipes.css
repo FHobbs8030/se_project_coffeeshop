@@ -12,7 +12,7 @@
 
 .recipes__title {
   margin-bottom: 24px;
-  font-family: Inter, Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -39,7 +39,7 @@
   gap: 40px;
   bottom: 80px;
   justify-content: center;
-  font-family: 'Inter',"Times New Roman", serif;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
