@@ -1,10 +1,14 @@
-
 .card {
   width: 540px;
 }
 
 .card__title {
   margin: 0 0 32px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__list {
@@ -18,15 +22,13 @@
 
 .card__list-item {
   display: flex;
-  align-items: center;
   gap: 16px;
   font-family: 'Noto Serif',"Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 20px;
-
-}
+  line-height: 20px
+  }
 
 .card__list-divider {
   border-bottom: 1px solid black;

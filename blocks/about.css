@@ -2,7 +2,6 @@
     0% {
       opacity: 0;
       transform: scale(1.2);
-
     }
 
     50% {
@@ -10,15 +9,12 @@
     }
 
     100% {
-      opacity: 1;
-      ease-in-out: (1.3s);
+      opacity: 0;
     }
-
-  }
-
+}
     .about {
       justify-content: space-between;
-      padding: 119px 80px 173px 80px;
+      padding: 100px 80px 173px 80px;
       background-color: #0A2850;
       color: #fff;
       overflow: hidden;
@@ -35,7 +31,6 @@
       font-size: 44px;
       line-height: 52px;
       max-width: 251px;
-      margin-top: 9px;
       z-index: 1;
     }
 
@@ -61,5 +56,5 @@
 }
 
     .about__circle_animation_blurred {
-      animation: pulsate 2s infinite;
+      animation: pulsate 1.3s infinite;
     }

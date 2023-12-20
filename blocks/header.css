@@ -37,11 +37,11 @@
 .header__description {
   font-family: 'Noto Serif',"Times New Roman", serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   max-width: 683px;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
   margin: 28px 0 80px;
   z-index: 1;
 }
@@ -52,10 +52,6 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-color: #ffffff;
   z-index: 0;
 }
 
@@ -63,8 +59,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  left: 80px;
-  bottom: 40px;
 }
 
 .header__paragraph {
