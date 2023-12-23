@@ -1,59 +1,59 @@
 @keyframes pulsate {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: .6;
-    }
-    100% {
-      opacity: 0;
-      transform: scale(1.2);
-    }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
 }
-    .about {
-      justify-content: space-between;
-      padding: 100px 80px 173px 80px;
-      background-color: #0A2850;
-      color: #fff;
-      overflow: hidden;
-      position: relative;
-      box-sizing: border-box;
-      display: flex;
-      gap: 120px;
-    }
-
-    .about__title {
-      font-family:  'Inter', Arial, sans-serif;
-      font-style: normal;
-      margin: 0;
-      font-weight: 500;
-      font-size: 44px;
-      line-height: 52px;
-      max-width: 251px;
-      z-index: 1;
-    }
-
-    .about__content {
-      font-family: 'Noto Serif',"Times New Roman", serif;
-      font-style: normal;
-      font-weight: normal;
-       font-size: 20px;
-       line-height: 30px;
-       max-width: 660px;
-       gap: 20px;
-    }
-
-  .about__circle {
-    background-color: #2f80ed;
-    width: 426px;
-    height: 426px;
-    border-radius: 50%;
-    position: absolute;
-    top: -152px;
-    left: -129px;
-    z-index: 0;
+.about {
+  justify-content: space-between;
+  padding: 100px 80px 173px 80px;
+  background-color: #0a2850;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  gap: 120px;
 }
 
-    .about__circle_animation_blurred {
-      animation: pulsate 1.3s ease-in-out infinite both;
-    }
+.about__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  margin: 0;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  z-index: 1;
+}
+
+.about__content {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  gap: 20px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite both;
+}
