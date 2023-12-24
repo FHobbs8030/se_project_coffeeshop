@@ -42,7 +42,6 @@
   cursor: pointer;
   width: 100%;
   padding: 0;
-  margin-top: 32px;
   margin-bottom: 32px;
   border-radius: 4px;
   height: 60px;
@@ -54,6 +53,11 @@
   font-size: 16px;
   line-height: 20px;
   border: none;
+}
+
+.form__button:hover {
+  background-color: #838383;
+  transition: background-color 1s ease-in;
 }
 
 .form__label_type_checkbox {
