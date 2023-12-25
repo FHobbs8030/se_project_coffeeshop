@@ -12,7 +12,7 @@
 }
 .about {
   justify-content: space-between;
-  padding: 100px 80px 173px 80px;
+  padding: 119px 80px 173px 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
@@ -34,6 +34,8 @@
 }
 
 .about__content {
+  display: flex;
+  flex-direction: column;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
@@ -41,6 +43,12 @@
   line-height: 30px;
   max-width: 660px;
   gap: 20px;
+}
+
+.about__paragraph {
+  margin: 0 0 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .about__circle {

@@ -70,4 +70,10 @@
 .header__paragraph {
   margin: 0;
   color: #6f6f6f;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383
 }
