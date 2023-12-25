@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 80px 40px;
+  padding: 30px 80px  40px 30px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -13,6 +13,7 @@
 }
 
 .header__title {
+  padding-left: 50px;
   max-width: 729px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
@@ -26,7 +27,6 @@
 
 .header__span-accent {
   display: block;
-  margin-left: 80px;
   font-family: 'Noto Serif',"Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
@@ -44,7 +44,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #000000;
-  margin: 28px 0 80px;
+  padding-left: 50px;
   z-index: 1;
 }
 
@@ -62,8 +62,7 @@
   justify-content: space-between;
   margin-top: auto;
   margin-bottom: 40px;
-  margin-left: 80px;
-
+  margin-left: 50px;
   align-items: flex-end
 }
 

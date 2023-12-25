@@ -72,7 +72,13 @@
   gap: 12px;
 }
 
+.form__label_type_checkbox:hover{
+  background-color: #838383;
+  transition: background-color 1s ease-in;
+}
+
 .form__checkbox {
   width: 20px;
   height: 20px;
   }
+
