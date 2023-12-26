@@ -20,11 +20,6 @@
   padding-left: 80px;
 }
 
-.footer__columns{
-  display: flex;
-  justify-content: space-between;
-}
-
 .footer__list {
   list-style-type: none;
   padding: 0;
@@ -70,6 +65,7 @@
 
 .footer__social-link:hover {
   color: #c1c1c1;
+  transition: color 1s ease-in;
 }
 
 .footer__social-icon {

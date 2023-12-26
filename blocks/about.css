@@ -12,7 +12,7 @@
 }
 .about {
   justify-content: space-between;
-  padding: 119px 80px 173px 80px;
+  padding: 100px 80px 173px 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
@@ -47,8 +47,7 @@
 
 .about__paragraph {
   margin: 0 0 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  gap: 20px;
 }
 
 .about__circle {

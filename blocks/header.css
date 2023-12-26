@@ -45,7 +45,6 @@
   line-height: 30px;
   color: #000000;
   padding-left: 50px;
-  z-index: 1;
 }
 
 .header__image {
@@ -61,9 +60,9 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
-  margin-bottom: 40px;
   margin-left: 50px;
-  align-items: flex-end
+  align-items: flex-end;
+  z-index: 1;
 }
 
 .header__paragraph {

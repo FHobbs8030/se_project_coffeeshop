@@ -61,8 +61,8 @@
 }
 
 .form__button:hover {
-  background-color: #838383;
-  transition: background-color 1s ease-in;
+  opacity: #838383;
+  transition: opacity 1s ease-in;
 }
 
 .form__label_type_checkbox {
