@@ -61,7 +61,7 @@
 }
 
 .form__button:hover {
-  opacity: #838383;
+  opacity: 1;
   transition: opacity 1s ease-in;
 }
 

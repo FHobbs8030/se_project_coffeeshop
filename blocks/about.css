@@ -12,7 +12,7 @@
 }
 .about {
   justify-content: space-between;
-  padding: 100px 80px 173px 80px;
+  padding: 0px 80px 173px 80px;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
@@ -25,7 +25,7 @@
 .about__title {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  margin: 0;
+  margin-top: 100px;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -35,6 +35,7 @@
 
 .about__content {
   display: flex;
+  margin-top: 119px;
   flex-direction: column;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
@@ -46,8 +47,7 @@
 }
 
 .about__paragraph {
-  margin: 0 0 0;
-  gap: 20px;
+margin: 0 0 0 0;
 }
 
 .about__circle {
