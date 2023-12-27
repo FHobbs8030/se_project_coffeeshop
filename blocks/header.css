@@ -37,7 +37,9 @@
 }
 
 .header__description {
-  font-family: 'Inter',Arial, sans-serif;
+margin-top: 28px;
+margin-bottom: 0;
+  font-family: 'Noto Serif',"Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
@@ -45,6 +47,7 @@
   line-height: 30px;
   color: #000000;
   padding-left: 50px;
+  z-index: 1;
 }
 
 .header__image {
