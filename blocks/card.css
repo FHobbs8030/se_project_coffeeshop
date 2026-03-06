@@ -1,36 +1,30 @@
 .card {
-  width: 540px;
+  max-width: 500px;
+  width: 100%;
 }
 
 .card__title {
-  margin: 0 0 32px;
-  font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .card__list {
+  list-style: none;
   padding: 0;
   margin: 0;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .card__list-item {
   display: flex;
-  gap: 16px;
-  font-family: 'Noto Serif',"Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
+  align-items: center;
+  font-family: "Noto Serif", serif;
   font-size: 16px;
-  line-height: 20px
-  }
+  margin-bottom: 12px;
+}
 
 .card__list-divider {
-  border-bottom: 1px solid black;
   flex-grow: 1;
+  border-bottom: 1px dotted #000;
+  margin: 0 8px;
 }

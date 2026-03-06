@@ -1,11 +1,12 @@
 .header {
-  padding: 30px 80px  40px 30px;
+  padding: 30px 5vw 40px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   box-sizing: border-box;
+  position: relative;
   min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
+
   background-image: url(../images/background_header.svg);
   background-color: #ffffff;
   background-size: cover;
@@ -13,68 +14,193 @@
 }
 
 .header__title {
-  padding-left: 50px;
+  padding-left: clamp(20px, 5vw, 50px);
   max-width: 729px;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-size: 60px;
+  font-size: clamp(42px, 4vw, 60px);
   line-height: 72px;
   font-weight: 500;
-  margin: 183px 0 0;
+  margin: clamp(80px, 10vh, 120px) 0 0;
   letter-spacing: -0.6px;
   z-index: 1;
 }
 
 .header__span-accent {
   display: block;
-  font-family: 'Noto Serif',"Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
+  font-size: clamp(42px, 4vw, 60px);
+  line-height: 1.2;
   color: #2f80ed;
   z-index: 1;
 }
 
 .header__description {
-margin-top: 28px;
-margin-bottom: 0;
-  font-family: 'Noto Serif',"Times New Roman", serif;
+  margin-top: 28px;
+  margin-bottom: 0;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
   color: #000000;
-  padding-left: 50px;
+  padding-left: clamp(20px, 5vw, 50px);
   z-index: 1;
 }
 
 .header__image {
   position: absolute;
   top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
+  right: 40px;
+  width: min(520px, 38vw);
+  height: auto;
   z-index: 0;
 }
 
 .header__footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
-  margin-left: 50px;
   align-items: flex-end;
+  margin-top: auto;
+  padding-left: clamp(20px, 5vw, 50px);
+  padding-right: 5vw;
+  width: 100%;
   z-index: 1;
 }
 
 .header__paragraph {
   margin: 0;
-  color: #6f6f6f;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383
+  color: #838383;
+}
+
+@media screen and (max-width: 1360px) {
+  .header__image {
+    width: 480px;
+    right: 40px;
+  }
+
+  .header__title {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .header__title {
+    max-width: 520px;
+  }
+
+  .header__description {
+    max-width: 520px;
+  }
+
+  .header__image {
+    width: 420px;
+    right: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    align-items: center;
+    text-align: left;
+  }
+
+  .header__image {
+    width: 400px;
+    position: static;
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  .header__title {
+    max-width: 500px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .nav__links {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header__footer {
+    padding-right: 0;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .header__image {
+    display: none;
+  }
+
+  .header__title {
+    margin-top: 40px;
+  }
+
+  .menu__cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 0;
+  }
+
+  .nav__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 15px 16px 20px;
+  }
+
+  .header__title,
+  .header__description,
+  .header__footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+
+  .header__image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .header__footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 16px;
+    width: 100%;
+  }
 }
